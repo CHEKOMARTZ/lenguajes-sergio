@@ -1,5 +1,4 @@
-//////////////////////
-se crea una clase llama cuadrado.java con getters y setters con atributos
+Creamos una clase llamada cuadrado.java junto con getter & setter con procedimiento
 
 package com.superficies;
 
@@ -24,9 +23,9 @@ public class cuadrado {
 
 
 
-//////////////////////////////////
-se crea una clase llama area.java con getters y setters con atributos
 
+////////////////////////////////////////////////////
+Creamos la clase area.java  junto con getter & setter con procedimiento
 package com.superficies;
 
 public class araea {
@@ -48,14 +47,15 @@ public class araea {
         int araea=c.getLado()*c.getLado();
         return araea;           
     }
-    
-    
-    
-    
-  ////////////////////////////
-  se crea un main class llamado ProbarSuperficies
-  
-  public class ProbarAreas {
+}
+
+
+
+
+//////////////////////////////////////////////////////
+Creamos un main class llamado ProbarAreas.java
+
+public class ProbarAreas {
 
     /**
      * @param args the command line arguments
@@ -72,20 +72,3 @@ public class araea {
     }
     
 }
-
-
-
-
-
-
-////////////////////
-se crea jl frame form
-
-codigo del boton calcular
-
-cuadrado d= new cuadrado();
-            d.setLado(Integer.parseInt(ObjetoTexto.getText()));
-           
-        
-            araea a= new araea(d);
-            ObjetoResultado.setText("El resultado es: "+a.calcular());
