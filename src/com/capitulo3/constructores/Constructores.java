@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.captulo3.constructores;
+package com.capitulo3.constructores;
 
 
 public class Constructores {
