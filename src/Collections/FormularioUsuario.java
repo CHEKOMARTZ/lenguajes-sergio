@@ -5,7 +5,6 @@
  */
 package Collections;
 
-import java.lang.invoke.MethodHandles;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

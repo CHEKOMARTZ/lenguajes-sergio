@@ -15,6 +15,7 @@ public class Galeria {
 
     public Galeria() {
         imagenes= new ArrayList<Imagencita>();
+        
         Imagencita i1=new Imagencita();
         i1.setUrl("/Collections/Nissan-GT-R[1].png");
         i1.setTitulo(" NISSAN GT-R");
@@ -62,5 +63,5 @@ public class Galeria {
     public void setImagenes(ArrayList<Imagencita> imagenes) {
         this.imagenes = imagenes;
     }
-    
+
 }
